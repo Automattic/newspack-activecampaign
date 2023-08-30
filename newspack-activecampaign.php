@@ -5,7 +5,7 @@
  * Description:     ActiveCampaign integration for Newspack.
  * Author:          Automattic
  * License:         GPL2
- * Version:         1.43.0
+ * Version:         1.0.0
  *
  * @package         Newspack
  */
