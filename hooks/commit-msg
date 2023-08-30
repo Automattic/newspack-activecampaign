@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cat $1 | ./node_modules/.bin/newspack-scripts commitlint
