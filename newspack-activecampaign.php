@@ -6,7 +6,7 @@
  * Author:          Automattic
  * License:         GPL2
  * Text Domain:     newspack-activecampaign
- * Version:         0.1.0
+ * Version:         1.0.0
  *
  * @package         Newspack
  */
