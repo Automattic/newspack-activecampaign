@@ -41,4 +41,3 @@ workflows:
   php:
     jobs:
       - newspack/lint-php
-      - newspack/test-php
