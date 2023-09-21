@@ -20,13 +20,16 @@ final class Events {
 	 * Constructor.
 	 */
 	public function __construct() {
-		add_action( 'init', [ __CLASS__, 'register_handlers' ] );
+		add_action( 'init', [ __CLASS__, 'register_handler' ] );
 	}
 
 	/**
-	 * Register handlers.
+	 * Register data event handler.
 	 */
-	public static function register_handlers() {
+	public static function register_handler() {
+		if ( ! class_exists( '\Newspack\Data_Events' ) ) {
+			return;
+		}
 		Data_Events::register_handler( [ __CLASS__, 'handler' ] );
 	}
 
